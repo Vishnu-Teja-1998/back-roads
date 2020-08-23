@@ -232,45 +232,44 @@ Navbar
 }
 @media screen and (min-width: 992px) {
   /* hide toggle button */
-  .navbar{
+  .navbar {
     padding: 1rem 2rem;
   }
   .nav-toggle {
     display: none;
   }
-  .nav-center{
+  .nav-center {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
   }
-  .nav-links{
+  .nav-links {
     display: flex;
     height: auto;
   }
-  .nav-header{
-    padding: 0 0 ;
+  .nav-header {
+    padding: 0 0;
   }
-  .nav-link{
+  .nav-link {
     padding: 0 0;
     margin-right: 0.7rem;
   }
-  .nav-link:hover{
+  .nav-link:hover {
     padding: 0;
     color: var(--clr-primary-5);
     background: transparent;
   }
-  .nav-icons{
+  .nav-icons {
     display: flex;
-
   }
-  .nav-icon{
+  .nav-icon {
     margin-right: 0.7rem;
     color: var(--clr-primary-5);
     font-size: 1.2rem;
     transition: var(--transition);
   }
-  .nav-icon:hover{
+  .nav-icon:hover {
     color: var(--clr-primary-8);
   }
 }
